@@ -1,0 +1,119 @@
+{
+  "mod_elements": [
+    {
+      "name": "Ingame1",
+      "type": "overlay",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ingame_1",
+      "path": "~/HUD"
+    },
+    {
+      "name": "BratvaOwner",
+      "type": "overlay",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bratva_owner",
+      "path": "~/Clans/Bratva"
+    },
+    {
+      "name": "V20",
+      "type": "overlay",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "v_20",
+      "path": "~/Bars/Armor"
+    },
+    {
+      "name": "H20",
+      "type": "overlay",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "h_20",
+      "path": "~/Bars/Health"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {}
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "HUD",
+        "children": []
+      },
+      {
+        "name": "Bars",
+        "children": [
+          {
+            "name": "Health",
+            "children": []
+          },
+          {
+            "name": "Health2",
+            "children": []
+          },
+          {
+            "name": "Armor",
+            "children": []
+          },
+          {
+            "name": "Armor2",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Clans",
+        "children": [
+          {
+            "name": "Bratva",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Vest",
+        "children": [
+          {
+            "name": "Staff",
+            "children": []
+          },
+          {
+            "name": "Clan",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Clan Menus",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "emerald_arena",
+    "modName": "Emerald Arena",
+    "version": "1.0.0",
+    "author": "Kordelas, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.emeraldarena",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200234517
+}
